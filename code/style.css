@@ -1,0 +1,395 @@
+@font-face {
+    font-family:new-york;
+    src: url(../assets/new-york/NewYorkExtraLargeBlack.otf);
+    
+
+}
+@font-face {
+    font-family:sf-pro;
+    src: url(../assests/sf-pro/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+    font-family:sf mono;
+    src: url(../assets/sf-mono/SFMonoRegular.otf);
+
+}
+.custombrand{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.customtext{
+    font-family: new-york;
+    margin-top: 66px;
+    line-height: 100%;
+    font-size: 54px;
+ 
+     text-align: center;
+     font-style: normal;
+     font-weight:bold;
+     
+ }
+ @media only screen and (max-width: 600px) {
+    .customtext{
+        line-height: 43px;
+        font-size: 36px;
+        margin-top: 52px;
+    }
+  }
+  .customfigmatext{
+    margin-top: 19px;
+    margin-bottom: 41px;
+    font-family: sf-mono;
+  text-align: center;
+  font-style: normal;
+  font-weight:normal;
+  font-size: 20px;
+  line-height: 34px;
+  word-spacing: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .customfigmatext{
+        margin-top: 24px;
+font-size: 16px;
+line-height: 170%;
+
+    }
+}
+.customLine{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.working{
+    display: inline-flex;
+}
+.social3-img{
+    display: none;
+}
+@media only screen and (max-width: 560px) {
+    .social3-img{
+        display: block;
+    }
+    .social2-img{
+        display: none;
+    }
+  }
+.text{
+    margin-left: 20px;
+}
+.customloremtext{
+    /* font-family:New-york-medium; */
+    margin-top: 58px;
+    font-size: 20px;
+line-height: 170%;
+}
+@media only screen and (max-width: 560px) {
+    .customloremtext{
+        font-size: 16px;
+        line-height: 170%;
+    }
+    
+  }
+.custom-margin{
+    margin-top: 30px ;
+}
+.custom-info{
+    font-family: sf-pro;
+    font-weight: bold;
+font-size: 32px;
+margin-top: 57px;
+
+}
+.custom-heading-details1{
+    font-size: 20px;
+    margin-top: 24px;
+line-height: 170%;
+}
+.custom-heading-details2{
+    font-size: 20px;
+    line-height: 170%;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .customcustom-info{
+        
+font-size: 26px;
+line-height: 31px;
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    .custom-heading-details1{
+        
+font-size: 16px;
+line-height: 170%;
+
+    }
+    .custom-heading-details2{
+        font-size: 16px;
+line-height: 170%;
+    }
+}
+
+.botomImgtext{
+    font-family: sf-pro;
+    line-height: 140%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+}
+.customparagraph1{
+    font-size: 20px;
+    margin-top: 52px;
+    line-height: 170%;
+}
+.customparagraph2{
+    font-size: 20px;
+    line-height: 170%;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .customparagraph1{
+        
+font-size: 16px;
+line-height: 170%;
+    }
+    .customparagraph2{
+        font-size: 16px;
+line-height: 170%;
+    }
+    .customlist{
+        font-size: 16px;
+line-height: 170%;
+
+    }
+}
+
+.customlist{
+    font-size: 20px;
+line-height: 170%;
+margin-top: 52px;
+}
+.unorderlist{
+    line-height: 40px;
+}
+.list1{
+    font-size: 20px;
+line-height: 170%;
+}
+.list2{
+    font-size: 20px;
+line-height: 170%;
+}
+.list3{
+    font-size: 20px;
+line-height: 170%;
+}
+.ending-paragraph{
+    font-size: 20px;
+    margin-top: 52px;
+line-height: 170%;
+}
+.thank-note{
+    font-size: 20px;
+line-height: 170%;
+margin-top: 30px;
+}
+
+
+.social-icons-container{
+    margin-top: 77px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding-top: 10px;
+}
+.tags-cont{
+    font-family: SF Pro Text;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+margin-top: 32px;
+}
+
+
+.social-images-container{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .social-images-container{
+        display: block;
+        
+    }
+    .social-icons-container{
+        display: none;
+        
+    }
+    .customfeedback{
+        font-size: 16px;
+        line-height: 170%;   
+    }
+    .Images-blocked{
+        display: none;
+    }
+    .signup-news{
+        font-size: 29px;
+        line-height: 100%;
+    }
+    .Sign-up-description{
+        font-size: 16px;
+line-height: 140%;
+    }
+    .footer-text{
+margin-left: 0px;
+letter-spacing: 0px;
+font-size: 16px;
+}
+.footer-text-1{
+    display: none;
+
+}
+
+.footer{
+    text-align: center;
+}
+}
+
+
+.customfeedback{
+    font-family: SF Pro Text;
+font-style: normal;
+margin-left: 20px;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+letter-spacing: 0.05em;
+}
+
+
+.customLine-end{
+    margin-top: 132px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.readnext{
+    margin-top: 73px;
+    justify-content: center;
+    text-align: center;
+}
+.images{
+    margin-top: 27px;
+}
+.text-end{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 120%;
+/* or 26px */
+
+text-align: center;
+margin-top: 20px;
+}
+.customarea{
+    text-align: center;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+
+.Images-blocked{
+    text-align: center;
+    justify-content: center;
+    margin-top: 27px;
+}
+.feedback-section{
+    margin-top: 114px;
+}
+ 
+
+.sign-up{
+    background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+text-align: center;
+}
+
+.signup-news{
+    font-family: New York Extra Large;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 28px;
+/* identical to box height, or 78% */
+
+text-align: center;
+margin-top: 62px;
+color: #090909;
+}
+
+.Sign-up-description{
+    font-family: SF Pro Text;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+margin-top: 18px;
+margin-left:60px ;
+margin-right:60px ;
+
+color: #090909;
+}
+
+.customclrchng-signup{
+    background-color: black;
+    color:white;
+    margin-bottom: 50px;
+    
+}
+
+.input-alignmnt{
+    width: 280px;
+    
+    
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 111px;
+    
+}
+
+.footer-text,.footer-text-1{
+    letter-spacing: 4px;
+    color: white;
+    margin-left: 10px;
+    
+
+}
+.footer-description{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.footer-heading{
+    letter-spacing: 3px;
+}
+.footer-links{
+    margin-left: 10px;
+}
